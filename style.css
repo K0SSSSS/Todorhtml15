@@ -1,0 +1,27 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(34, 151, 214, 0.803);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    transition: width 1s ease-in, background-color 2s ease-in-out;
+}
+.box h2{
+    color: orangered;
+
+}
+.box:hover{
+    width: 700px;
+    background-color: aquamarine;
+}
+.box button{
+    background-color: blueviolet;
+    border-radius: 20px;
+    margin-left: 40px;
+    transition: transform 3s ease;
+}
+.box button:active{
+    transform: scale(1.5);
+}
